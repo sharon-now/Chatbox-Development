@@ -1,0 +1,65 @@
+# AITCD001 — Chatbots Development
+
+## Practice Programming Task 1
+
+This repository contains my work for **AITCD001: Chatbots Development — Practice Programming Task 1**.
+
+### About the Task
+
+The task focuses on practicing Python programming concepts used in rule-based chatbots, including:
+
+* Strings and string methods
+* Lists
+* Dictionaries
+* `for` loops
+* `while` loops
+* Conditional statements
+* Variables and counters
+* Tokenisation
+* Keyword matching
+* Rule scoring
+* Functions
+* Parsing text into dictionaries
+
+### Exercises
+
+**Exercise 1 — String Preparation**
+Prepared a message by converting it to lowercase and removing surrounding whitespace.
+
+**Exercise 2 — Removing Punctuation**
+Removed punctuation from the prepared message using a `for` loop.
+
+**Exercise 3 — Tokenisation**
+Split the cleaned message into individual words (tokens).
+
+**Exercise 4 — Searching Keywords**
+Checked whether chatbot keywords appeared in the message.
+
+**Exercise 5 — Scoring Rules**
+Compared the message against multiple chatbot rules and identified the highest-scoring rule.
+
+**Exercise 6 — Functions**
+Created reusable `normalise()` and `tokenise()` functions.
+
+**Exercise 7 — Parsing and Scoring Rules**
+Created functions to parse rules from text, score rules, and find the best match.
+
+**Exercise 8 — Matching Procedure**
+Combined the functions into a complete keyword-matching procedure.
+
+**Exercise 9 — Interactive Matching (Bonus)**
+Created an interactive chatbot matcher that accepts messages until the user enters `bye` and records unmatched messages.
+
+### Technologies Used
+
+* Python
+* Jupyter Notebook / Google Colab
+* GitHub
+
+### Main Concepts Practiced
+
+The final program demonstrates how a simple **rule-based chatbot** can process a user's message, identify keywords, score possible topics, and return the matching topic or a fallback response.
+
+### Author
+
+Sharon UWINEZA 
