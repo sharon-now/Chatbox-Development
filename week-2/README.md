@@ -1,6 +1,5 @@
 Week 2 — How Computers "Read"
-Chatbot Development (AITCD001) — Learning Outcome 1
-Author:Sharon Uwineza
+Chatbot Development (AITCD001) — Learning Outcome
 
  Overview
 Last week's chatbot matched exact keywords. This week's activity explores the first real step toward a smarter chatbot: how a computer breaks a sentence into pieces it can actually work with. Using **spaCy**'s small English model (`en_core_web_sm`), the notebook covers three core NLP building blocks — **tokenization**, **part-of-speech (POS) tagging**, and **named entity recognition (NER)** — all running on CPU in Google Colab's free tier, no GPU or local install required.
@@ -34,3 +33,5 @@ Began building a small labeled dataset of example sentences tagged with **intent
 - Python
 - spaCy (`en_core_web_sm`)
 - Google Colab
+
+Author:Sharon UWINEZA
