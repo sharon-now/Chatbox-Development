@@ -1,0 +1,48 @@
+# Week 4 — Rule-Based Chatbot for the Campus Library
+
+Name:UWINEZA Sharon
+GitHub:Sharon-now
+
+## Overview
+
+This chatbot is a rule-based chatbot for the campus library. It helps students get information about library rooms, opening hours, borrowing and renewing books, fines, and printing services.
+
+## Intents
+
+| Tag      | Request                          | Example phrasing                   |
+| -------- | -------------------------------- | ---------------------------------- |
+| rooms    | Find or book a library room      | “Can I book a study room?”         |
+| hours    | Ask about library opening hours  | “What time does the library open?” |
+| borrow   | Ask how to borrow a book         | “How can I borrow a book?”         |
+| renew    | Ask how to renew a borrowed book | “Can I renew my book?”             |
+| fines    | Ask about library fines          | “Do I have a fine?”                |
+| printing | Ask about printing services      | “Can I print in the library?”      |
+
+## Rule ordering
+
+The rooms and borrow intents can collide because both may contain the word “book.” Rooms is checked before borrow because a user saying “I want to book a room” should be classified as rooms, not borrow. If the order were reversed, a room-booking request containing the word “book” could incorrectly be classified as borrow.
+
+## The booking flow
+
+The three values collected, in order, are:
+
+1. Date
+2. Time
+3. Room
+
+If an answer is not recognised, the chatbot asks the user to provide a valid answer before continuing with the booking.
+
+## Test results
+
+Test messages:35
+Returned the expected tag: 35
+
+## Running this notebook
+
+Open `Sharon_UWINEZA_Assignment_4.ipynb` in Google Colab.
+
+Run the cells in order. Do not use Run all because the chat cell waits for user input.
+
+## What was learned
+
+I learned how to build a rule-based chatbot using intents and keyword matching. I also learned that the order of rules is important because some messages can match more than one intent.
